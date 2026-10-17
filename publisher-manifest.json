@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "template_version": "3a528c553883e59d7cfa",
+  "page_size": 20,
+  "site_id": "1bc7a9cd29c52dfa6da15bc2",
+  "owner": "pokiu9728",
+  "repo": "page-5490586e196a3819d4f88dc1",
+  "title": "GW树洞",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "5490586e196a3819d4f88dc1",
+      "a": "GW树洞",
+      "b": "",
+      "entity": "GW树洞",
+      "brand": "GW树洞",
+      "separator": "",
+      "path": "index.html",
+      "hash": "c77017d292766f04d46323f0985be1058173434b41b61b502dd725a90f22bd4a",
+      "content": {
+        "keyword1": "GW树洞",
+        "keyword2": "",
+        "primary_entity": "GW树洞",
+        "plans": [],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "GW树洞以专栏作者的方式，把套餐、客户端与使用步骤一条条讲清楚：三档订阅、按年优惠、从注册到连上的完整路径，以及那些别人不愿明说的细节。",
+          "AI_DESCRIPTION": "GW树洞以专栏作者的方式，把套餐、客户端与使用步骤一条条讲清楚：三档订阅、按年优惠、从注册到连上的完整路径，以及那些别人不愿明说的细节。"
+        },
+        "_brand_page": {
+          "version": 3,
+          "body": "<style>\n  :root{--bg:#eceef1;--bg-soft:#f4f5f7;--ink:#191a1f;--ink-soft:#4b4e57;--line:#d7d9de;--violet:#7c3aed;--violet-deep:#5b21b6;--violet-tint:#efe9fd;--white:#ffffff}\n  *{margin:0;padding:0;box-sizing:border-box}\n  html{}\n  body{background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",\"PingFang SC\",\"Hiragino Sans GB\",\"Microsoft YaHei\",sans-serif;line-height:1.75;font-size:16px;padding-bottom:64px}\n  a{color:var(--violet-deep);text-decoration:none}\n  a:hover{text-decoration:underline}\n\n  /* ---------- 首屏：纵向时间线引入 ---------- */\n  .hero{max-width:880px;margin:0 auto;padding:72px 24px 56px}\n  .hero .kicker{display:inline-block;font-size:13px;letter-spacing:.2em;color:var(--violet-deep);border:1px solid var(--violet);padding:4px 14px;border-radius:999px;margin-bottom:28px;background:var(--white)}\n  .hero h1{font-size:clamp(34px,6vw,54px);line-height:1.2;letter-spacing:-.01em;margin-bottom:18px}\n  .hero h1 em{font-style:normal;color:var(--violet)}\n  .hero .lede{max-width:640px;color:var(--ink-soft);font-size:17px;margin-bottom:48px}\n  .timeline{position:relative;padding-left:34px}\n  .timeline::before{content:\"\";position:absolute;left:9px;top:6px;bottom:6px;width:2px;background:linear-gradient(var(--violet),var(--line))}\n  .timeline .t-item{position:relative;padding:0 0 30px}\n  .timeline .t-item:last-child{padding-bottom:0}\n  .timeline .t-item::before{content:\"\";position:absolute;left:-31px;top:9px;width:12px;height:12px;border-radius:50%;background:var(--bg);border:3px solid var(--violet)}\n  .timeline .t-step{font-size:12px;letter-spacing:.18em;color:var(--violet-deep);text-transform:uppercase;margin-bottom:2px}\n  .timeline .t-title{font-size:19px;font-weight:700;margin-bottom:4px}\n  .timeline .t-desc{color:var(--ink-soft);font-size:15px;max-width:560px}\n\n  /* ---------- 主体 ---------- */\n  main{max-width:880px;margin:0 auto;padding:0 24px 40px}\n  section{margin-bottom:72px}\n  .sec-head{margin-bottom:28px}\n  .sec-head .no{font-size:13px;letter-spacing:.22em;color:var(--violet-deep);display:block;margin-bottom:6px}\n  .sec-head h2{font-size:clamp(24px,4vw,32px);line-height:1.3;letter-spacing:-.01em}\n  .sec-head p{color:var(--ink-soft);max-width:620px;margin-top:8px;font-size:15px}\n  .prose p{color:var(--ink-soft);margin-bottom:16px;max-width:680px}\n  .prose strong{color:var(--ink)}\n\n  /* ---------- 卡片：左侧色条标记 ---------- */\n  .bar-card{background:var(--white);border:1px solid var(--line);border-left:5px solid var(--violet);padding:22px 24px;margin-bottom:18px}\n  .bar-card h3{font-size:18px;margin-bottom:6px}\n  .bar-card p{color:var(--ink-soft);font-size:15px}\n\n  /* ---------- 套餐：单列大卡依次堆叠 ---------- */\n  .plan{background:var(--white);border:1px solid var(--line);border-left:6px solid var(--violet);padding:30px 28px 26px;margin-bottom:26px}\n  .plan.featured{background:var(--violet-tint);border-left-color:var(--violet-deep);box-shadow:0 10px 30px rgba(124,58,237,.10)}\n  .plan-top{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px 18px;margin-bottom:6px}\n  .plan-top h3{font-size:24px;letter-spacing:-.01em}\n  .plan .tag{font-size:12px;letter-spacing:.14em;background:var(--violet-deep);color:#fff;padding:3px 12px;border-radius:999px}\n  .plan .price{font-size:30px;font-weight:800;color:var(--violet-deep);letter-spacing:-.02em}\n  .plan .annual{font-size:14px;color:var(--ink-soft);margin-bottom:16px}\n  .plan ul{list-style:none;display:grid;gap:8px}\n  .plan li{position:relative;padding-left:22px;color:var(--ink-soft);font-size:15px}\n  .plan li::before{content:\"\";position:absolute;left:0;top:11px;width:10px;height:3px;background:var(--violet)}\n  .plan .note{margin-top:16px;font-size:13px;color:var(--ink-soft);border-top:1px dashed var(--line);padding-top:12px}\n\n  /* ---------- 客户端 ---------- */\n  .client-grid .bar-card .meta{font-size:13px;color:var(--violet-deep);letter-spacing:.08em;margin-bottom:4px}\n\n  /* ---------- FAQ：details 折叠 ---------- */\n  details{background:var(--white);border:1px solid var(--line);border-left:5px solid var(--violet);margin-bottom:14px}\n  summary{cursor:pointer;list-style:none;padding:18px 22px;font-weight:700;font-size:16px;display:flex;justify-content:space-between;align-items:center;gap:16px}\n  summary::-webkit-details-marker{display:none}\n  summary::after{content:\"+\";font-size:22px;font-weight:400;color:var(--violet-deep);flex-shrink:0}\n  details[open] summary::after{content:\"−\"}\n  details .answer{padding:0 22px 20px;color:var(--ink-soft);font-size:15px;max-width:640px}\n\n  /* ---------- 结尾 ---------- */\n  .colophon{border-top:2px solid var(--ink);padding-top:24px;color:var(--ink-soft);font-size:14px;max-width:640px}\n\n  /* ---------- 底部固定文字导航 ---------- */\n  .dock{position:fixed;left:0;right:0;bottom:0;background:rgba(255,255,255,.94);border-top:1px solid var(--line);backdrop-filter:blur(6px);z-index:50}\n  .dock nav{max-width:880px;margin:0 auto;display:flex;justify-content:space-between;gap:4px;padding:10px 16px;overflow-x:auto}\n  .dock a{flex:1;text-align:center;white-space:nowrap;font-size:13px;letter-spacing:.06em;color:var(--ink-soft);padding:6px 8px;border-radius:6px}\n  .dock a:hover{background:var(--violet-tint);color:var(--violet-deep);text-decoration:none}\n\n  @media (max-width:560px){\n    body{font-size:15px}\n    .hero{padding:56px 20px 40px}\n    main{padding:0 20px 32px}\n    .plan{padding:24px 20px 22px}\n    .plan .price{font-size:26px}\n    .dock a{font-size:12px;padding:6px 4px}\n  }\n</style><header class=\"hero\">\n  <span class=\"kicker\">一份写在明处的网络手记</span>\n  <h1><em>GW树洞</em>：把网络这件事，按时间顺序讲清楚</h1>\n  <p class=\"lede\">大多数服务把信息藏在注册之后。我们反过来——把你会经历的每一步，沿着一条时间线先摆出来。看完再决定，不迟。</p>\n\n  <div class=\"timeline\">\n    <div class=\"t-item\">\n      <div class=\"t-step\">第一步 · 读</div>\n      <div class=\"t-title\">先读这一页</div>\n      <p class=\"t-desc\">套餐、客户端、步骤、常见问题，全部公开在这一页上。不需要先交邮箱，也不需要先加群。</p>\n    </div>\n    <div class=\"t-item\">\n      <div class=\"t-step\">第二步 · 选</div>\n      <div class=\"t-title\">挑一个和你用量相称的套餐</div>\n      <p class=\"t-desc\">三档，按月或按年。选小了可以升级，选大了浪费的是你自己的预算——所以请对照真实用量选。</p>\n    </div>\n    <div class=\"t-item\">\n      <div class=\"t-step\">第三步 · 装</div>\n      <div class=\"t-title\">在你的设备上装好客户端</div>\n      <p class=\"t-desc\">电脑、手机、平板各就各位。订阅信息填进去，剩下的交给客户端自己处理。</p>\n    </div>\n    <div class=\"t-item\">\n      <div class=\"t-step\">第四步 · 用</div>\n      <div class=\"t-title\">连上，然后忘掉它的存在</div>\n      <p class=\"t-desc\">好的工具应该消失在背景里。遇到问题再回来，常见问题一节大概率已经替你写好了答案。</p>\n    </div>\n  </div>\n</header>\n\n<main>\n\n  <section id=\"about\">\n    <div class=\"sec-head\">\n      <span class=\"no\">01 · 立场</span>\n      <h2 id=\"about-h\">为什么叫\"树洞\"</h2>\n      <p>因为这个行业里有太多话没人愿意明说，我们打算在这里说出来。</p>\n    </div>\n    <div class=\"prose\">\n      <p>打开大多数同类服务的页面，你会看到一排排闪亮的形容词，和一排排语焉不详的小字。<strong>GW树洞</strong>想做的是另一件事：用专栏作者写稿的方式，把一项服务拆成可以逐条核对的陈述。</p>\n      <p>流量是多少，就写多少；支持几台设备，就写几台；哪些事我们做不到，也照实写。树洞的意思是——你说的有人听，我们说的不掺水。</p>\n    </div>\n    <div class=\"bar-card\">\n      <h3>写在前面的三条规矩</h3>\n      <p>一，页面上的每个数字都对得上账单。二，不存在的功能不出现在页面上。三，出了问题，先查常见问题，再提工单，不绕圈子。</p>\n    </div>\n  </section>\n\n  <section id=\"plans\">\n    <div class=\"sec-head\">\n      <span class=\"no\">02 · 套餐</span>\n      <h2 id=\"plans-h\">三档订阅，从小到大依次摆开</h2>\n      <p>按年付比按月付省两个月左右的钱。所有档位都可以随时升级，差价按剩余天数折算。</p>\n    </div>\n\n    <article class=\"plan\">\n      <div class=\"plan-top\">\n        <h3>基础版</h3>\n        <span class=\"price\">¥15/月</span>\n      </div>\n      <p class=\"annual\">按年付仅需 ¥150/年</p>\n      <ul>\n        <li>每月 100GB 极速流量</li>\n        <li>支持 3 台设备同时在线</li>\n        <li>解锁基础流媒体</li>\n        <li>普通线路节点池</li>\n      </ul>\n      <p class=\"note\">适合谁：一台电脑加一部手机，日常查资料、看文档、偶尔追剧。100GB 对轻度使用绰绰有余。</p>\n    </article>\n\n    <article class=\"plan featured\">\n      <div class=\"plan-top\">\n        <h3>旗舰版</h3>\n        <span class=\"tag\">多数人的选择</span>\n        <span class=\"price\">¥35/月</span>\n      </div>\n      <p class=\"annual\">按年付仅需 ¥350/年</p>\n      <ul>\n        <li>每月 300GB 极速流量</li>\n        <li>支持 5 台设备同时在线</li>\n        <li>全节点原生流媒体解锁</li>\n        <li>IPLC 专线游戏加速优化</li>\n        <li>7x24 优先工单支持</li>\n      </ul>\n      <p class=\"note\">适合谁：设备多、看得多、也打游戏。300GB 覆盖高清流媒体的重度使用，专线优化让延迟不再是借口。</p>\n    </article>\n\n    <article class=\"plan\">\n      <div class=\"plan-top\">\n        <h3>团队版</h3>\n        <span class=\"price\">¥85/月</span>\n      </div>\n      <p class=\"annual\">按年付仅需 ¥850/年</p>\n      <ul>\n        <li>每月 1000GB 极速流量</li>\n        <li>支持 20 台设备同时在线</li>\n        <li>VIP 专属高带宽节点</li>\n        <li>支持企业定制路由</li>\n        <li>专属客户经理服务</li>\n      </ul>\n      <p class=\"note\">适合谁：小团队、工作室，或者一个设备多得像机房的大家庭。定制路由和专属经理，省的是沟通成本。</p>\n    </article>\n  </section>\n\n  <section id=\"clients\">\n    <div class=\"sec-head\">\n      <span class=\"no\">03 · 客户端</span>\n      <h2 id=\"clients-h\">你的设备，各有一个去处</h2>\n      <p>订阅是通用的，客户端按平台选。下载地址以用户中心内提供的为准。</p>\n    </div>\n    <div class=\"client-grid\">\n      <div class=\"bar-card\">\n        <p class=\"meta\">桌面端</p>\n        <h3>Windows 与 macOS</h3>\n        <p>在用户中心的\"客户端下载\"区获取对应安装包。安装后登录账号或导入订阅链接，客户端会自动同步节点列表，无需手动逐条添加。</p>\n      </div>\n      <div class=\"bar-card\">\n        <p class=\"meta\">移动端</p>\n        <h3>iOS 与 Android</h3>\n        <p>iOS 用户请按用户中心指引获取客户端；Android 用户可直接下载安装包。登录同一账号后，订阅信息与桌面端保持一致。</p>\n      </div>\n      <div class=\"bar-card\">\n        <p class=\"meta\">多设备</p>\n        <h3>同时在线怎么算</h3>\n        <p>同时在线数按套餐上限计算：基础版 3 台、旗舰版 5 台、团队版 20 台。超出上限时，最早空闲的连接会被断开，不会额外扣费。</p>\n      </div>\n    </div>\n  </section>\n\n  <section id=\"guide\">\n    <div class=\"sec-head\">\n      <span class=\"no\">04 · 使用说明</span>\n      <h2 id=\"guide-h\">从付款到连上，一共五步</h2>\n      <p>整个过程顺利的话不超过十分钟。卡在哪一步，就回到哪一步重读。</p>\n    </div>\n    <div class=\"bar-card\">\n      <h3>1 · 注册账号</h3>\n      <p>用常用邮箱注册。订单、续费提醒和工单回复都会发到这个邮箱，别用随手就丢的地址。</p>\n    </div>\n    <div class=\"bar-card\">\n      <h3>2 · 选择套餐并支付</h3>\n      <p>对照上一节的三档说明下单。按月灵活，按年划算；不确定就先按月，升级随时可行。</p>\n    </div>\n    <div class=\"bar-card\">\n      <h3>3 · 下载并安装客户端</h3>\n      <p>在用户中心的下载区选择对应平台的客户端，按提示完成安装。</p>\n    </div>\n    <div class=\"bar-card\">\n      <h3>4 · 导入订阅</h3>\n      <p>登录账号或复制订阅链接导入客户端，节点列表会自动出现。之后节点有更新，客户端会自行同步。</p>\n    </div>\n    <div class=\"bar-card\">\n      <h3>5 · 连接并验证</h3>\n      <p>选择一个节点连接，打开一个平时打不开的页面验证。通了，就可以把这页关掉了。</p>\n    </div>\n  </section>\n\n  <section id=\"faq\">\n    <div class=\"sec-head\">\n      <span class=\"no\">05 · 常见问题</span>\n      <h2 id=\"faq-h\">被问得最多的，先答在这里</h2>\n      <p>点开任意一条。如果答案不在这里，工单会接住你。</p>\n    </div>\n\n    <details>\n      <summary>流量用超了会怎样？</summary>\n      <div class=\"answer\">当月流量用完后服务会暂停，不会自动扣取任何超额费用。你可以等次月流量重置，或在用户中心升级到更高档位，升级后即刻恢复使用。</div>\n    </details>\n    <details>\n      <summary>中途想换套餐，钱怎么算？</summary>\n      <div class=\"answer\">支持随时升级。已付费用按剩余天数折算成余额，自动抵扣新套餐的差价。降级则在当前计费周期结束后生效。</div>\n    </details>\n    <details>\n      <summary>按年付和按月付差多少？</summary>\n      <div class=\"answer\">以基础版为例：按月付一年是 ¥180，按年付是 ¥150，相当于省下两个月。旗舰版与团队版同样是\"付十个月用十二个月\"的结构。</div>\n    </details>\n    <details>\n      <summary>设备数量是怎么限制的？</summary>\n      <div class=\"answer\">限制的是\"同时在线\"的数量，而不是已安装的设备数。你可以在任意多台设备上安装客户端，只要同时连接的数量不超过套餐上限即可。</div>\n    </details>\n    <details>\n      <summary>连不上的时候应该先做什么？</summary>\n      <div class=\"answer\">按顺序排查：先切换其他节点；再确认订阅已同步（在客户端内手动刷新一次）；然后检查本地网络是否正常。三步都试过仍不行，提交工单并附上你使用的平台和节点名称，旗舰版与团队版用户会进入优先队列。</div>\n    </details>\n    <details>\n      <summary>团队版的\"定制路由\"是什么意思？</summary>\n      <div class=\"answer\">指根据团队的实际业务流向，配置指定的流量走指定线路，例如让办公服务与流媒体各走各的通道。开通后由专属客户经理对接需求并协助配置。</div>\n    </details>\n  </section>\n\n  <footer class=\"colophon\">\n    <p>GW树洞 —— 一页写完，不再藏话。页面上的每一项说明都与用户中心的实际配置一致；若有不符，以账单与工单回复为准，并欢迎指出。</p>\n  </footer>\n\n</main>\n\n<div class=\"dock\">\n  <nav aria-label=\"页面导航\">\n    <a href=\"#about\">立场</a>\n    <a href=\"#plans\">套餐</a>\n    <a href=\"#clients\">客户端</a>\n    <a href=\"#guide\">使用说明</a>\n    <a href=\"#faq\">常见问题</a>\n  </nav>\n</div>",
+          "hash": "1b1a3d5f6f121980ac01dfd7b935d60397396998145abb0e9c952361869f18e9",
+          "seo": {
+            "title": "GW树洞 — 把网络这件事，讲清楚",
+            "keywords": "GW树洞,网络服务,订阅套餐,客户端,使用指南",
+            "description": "GW树洞以专栏作者的方式，把套餐、客户端与使用步骤一条条讲清楚：三档订阅、按年优惠、从注册到连上的完整路径，以及那些别人不愿明说的细节。"
+          },
+          "provider": "grok",
+          "model": "kimi-k3",
+          "design": {
+            "no": "7293",
+            "hero": "6 纵向时间线引入",
+            "palette": "4 浅灰配电光紫",
+            "nav": "4 底部固定式文字导航",
+            "card": "4 左侧色条标记",
+            "plans_view": "4 单列大卡依次堆叠",
+            "faq_view": "4 details 折叠",
+            "tone": "4 专栏作者式叙述",
+            "order": "首屏优先，其余区块由 AI 根据已选构图和信息关系安排"
+          }
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "gggje.cn",
+    "host": "p-da40b00961.gggje.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804",
+    "prefix_mode": "auto"
+  },
+  "friendlinks": [],
+  "file_hashes": {
+    "index.html": "212b74e1550cdbede5e24a5b1c4158bd18559239654083c1a94b6f7e81b77ec1",
+    "sitemap.xml": "78a567aad7eaf1c738a3dce9d60ae7b03505ee8d3b176f6dd702b91930c43cd9",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "c0f2446471512f4cc22e65f08ce25eb85d1108e08ec3eec28ffd9ea84973898f",
+    "robots.txt": "a2e56766435adc4132523d4d3d894cb97de0955d751ab08521de8504eef81bc6",
+    "93d7c1ca904cbaf09e569c94330560db.txt": "f0c58a3f341a2a459da19f598f1ccd33399b5d472f344fb84b9cf56bbff73c8c"
+  },
+  "revision": "e1ceb97d93434f37839c87db1f47a6389d9b14a02c9a2ffcbdec5cffd9b61bc3"
+}

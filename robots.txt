@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://p-da40b00961.gggje.cn/sitemap.xml
